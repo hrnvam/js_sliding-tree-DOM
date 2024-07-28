@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".tree li").forEach(function(e){var t=document.createElement("span");t.textContent=e.firstChild.textContent.trim(),e.firstChild.replaceWith(t)}),document.querySelectorAll(".tree span").forEach(function(e){e.addEventListener("click",function(t){t.stopPropagation();var n=e.parentElement.querySelector("ul");n&&("none"===n.style.display?n.style.display="":n.style.display="none")})})});
+//# sourceMappingURL=index.6e1af1a5.js.map
